@@ -2,3 +2,4 @@
 
 ## Use cases
 - Fibonacci
+- Factorial
