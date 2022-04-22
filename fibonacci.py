@@ -20,3 +20,18 @@ def fibonacci_stack(n):
     else:
       return(x)
 
+def fib_iter(n):
+    f=[0,1]
+    if n==0:
+      return 0
+    elif n==1:
+      return 1
+    else:
+      for i in range(1, n):
+        temp=f[0]
+        f[0]= f[1]
+        f[1] = f[1]+temp
+      return f[1]
+      
+      
+
